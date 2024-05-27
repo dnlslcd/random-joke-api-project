@@ -15,6 +15,27 @@ button.addEventListener('click', async function(){
     jokeDIV.textContent = data.value;
 });
 
+// Uso de la API Chuck Norris a la forma "antigua"  
+// const image = document.querySelector('img');
+// const jokeDIV = document.querySelector('#display-joke');
+// const button = document.querySelector('#get-joke');
+// button.addEventListener('click', async function () {
+//     const client = new XMLHttpRequest();
+//     client.addEventListener("readystatechange", () => {
+//         const isDone = client.readyState === 4;
+//         const isOk = client.status === 200;
+//         if (isDone && isOk) {
+//             console.log(client.responseText);
+//             // coger la información de client.responseText y colocarla en jokeDiv.textContent
+//         }
+//     });
+//     client.open("GET", "https://api.chucknorris.io/jokes/random");
+//     client.send();
+//     // // 3. Modificar el DOM para mostrar el chiste al usuario
+//     // jokeDIV.textContent = data.value;
+// });
+
+
 
 // Errores comunes
 
